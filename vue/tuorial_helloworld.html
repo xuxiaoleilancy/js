@@ -76,14 +76,18 @@
 var browser=navigator.appName
 var b_version=navigator.appVersion
 var version=parseFloat(b_version)
-var _pf = navigator.platform
 
 document.write("浏览器名称："+ browser)
 document.write("<br />")
 document.write("浏览器版本："+ version)
 document.write("<br />")
-document.write("系统类型："+ _pf)
 </script>
+</div>
+
+<div>
+	<script type="text/javascript">
+	document.write("系统类型："+ navigator.platform)
+	</script>
 </div>
 
 <script src="js/vue.js"></script>
